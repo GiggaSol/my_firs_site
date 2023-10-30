@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*::selection {
+    background-color: #C62314;
+}
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Хедер */
+header {
+    background-image: url(../img/background.jpg);
+    background-color: #DD2211;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    width: 1011px;
+    margin: 0 auto;
+}
+
+.logo_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_img {
+    width: 289px;
+    height: 94px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.content {
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s linear;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover li {
+    background-color: #130E27;
+    color: white;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 170px;
+}
+
+.sell_car {
+    text-transform: uppercase;
+    color: #130E27;
+}
+
+.sell_car2 {
+    color: white;
+}
+
+.text {
+    padding: 53px 0 160px 0;
+}
+
+.text_lorem {
+    font-family: 'PT Serif', serif;
+    color: white;
+    font-size: 20px;
+    width: 500px;
+    height: 75px;
+    line-height: 28px;
+}
+
+/* Секция сервисов */
+.title_services {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 46px;
+}
+
+.title_our {
+    color: #C62314;
+}
+
+.all_services {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon_icon {
+    /* margin: 98px auto 52px auto; */
+    /* width: 163px;
+    height: 142px; */
+    margin-top: 98px;
+}
+
+.text_icon {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    /* padding-top: 51px; */
+    width: 180px;
+    /* margin: 0 auto;
+    text-align: center; */
+    color: #161616;
+    margin-bottom: 72px;
+}
+
+#text_icon_heart {
+    margin-top: 51px;
+}
+
+#text_icon_tools {
+    margin-top: 56px;
+}
+
+#text_icon_light_bulb {
+    margin-top: 38px;
+}
+
+#text_icon_compass {
+    margin-top: 43px;
+}
+
+/* Секция истории и ценников */
+.storys {
+    background-color: #130E27;
+    padding: 31px 0 24px 0;
+}
+
+.story {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.story_text {
+    width: 650px;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.story_button {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: #DD2211;
+    color: white;
+    border-radius: 6px;
+    padding: 20px 70px;
+    user-select: none;
+    transition: background-color 0.5s, transform 0.5s;
+    /* transition: transform 0.5s; */
+}
+
+.story_button:hover {
+    background-color: #c02213;
+    cursor: pointer;
+}
+
+.story_button:active {
+    transform: scale(0.95);
+    background-color: #ad1e11;
+}
+
+/* Карточки цен */
+.pricings {
+    background-color: #e4e4e4;
+}
+
+.pricing_title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 50px 0 50px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 28px 56px 10px 56px;
+    margin-bottom: 60px;
+    /* width: 319px;
+    height: 390px; */
+}
+
+.title_card {
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+}
+
+.price {
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 20px;
+    color: #C62314;
+}
+
+.privileges {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.priv_cont {
+    font-family: 'PT Serif', serif;
+}
+
+.buy_button {
+    text-transform: uppercase;
+    background-color: #130E27;
+    color: white;
+    padding: 12px 80px 12px 80px;
+    border-radius: 4px;
+    margin-top: 30px;
+    font-size: 22px;
+    transition: background-color 0.5s, transform 0.5s;
+    user-select: none;
+}
+
+.buy_button:hover {
+    background-color: #C62314;;
+    cursor: pointer;
+}
+
+.buy_button:active {
+    transform: scale(0.95);
+}
+
+#sign_up {
+    padding: 12px 60px 12px 60px;
+}
+
+/* Футер */
+footer {
+    background-color: #130E27;
+}
+
+.automotive_end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer_text {
+    font-family: 'PT Serif', serif;
+    color: white;
+    font-size: 20px;
+}
+
+.des_con {
+    font-family: 'PT Serif', serif;
+    color: #C62314;
+}
+
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+    header {
+        background-size: 1400px;
+    }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+    html {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .container {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .logo_nav{
+        justify-content: center;
+    }
+
+    .text {
+        margin-left: 250px;
+    }
+
+    .icons {
+        margin: 0 auto;
+    }
+
+    .story_button {
+        margin-right: 50px;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .automotive_end {
+        flex-direction: column;
+    }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    html {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        margin: 0 auto;
+        text-align: center;
+        width: 300px;
+    }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+    
+}
